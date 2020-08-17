@@ -1,0 +1,43 @@
+
+html , body{
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#root{
+  height: 100%;
+   
+}
+
+li {
+  list-style-type: none; 
+  color: #000000;
+ }
+ ul {
+  margin-left: 0; 
+  padding-left: 0; 
+ }
+
+ a { 
+  color: #000000;
+  text-decoration: none; 
+ }
+
+ .App{
+   height: 100%;
+   display:grid;
+   grid-template-areas: "L R ";
+   grid-template-columns: 17fr 20fr;
+
+
+ }
+
+ 
+.menu{
+   display: flex;
+ }
+
+
+
+ 

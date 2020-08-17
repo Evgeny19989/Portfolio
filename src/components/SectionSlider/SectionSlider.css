@@ -1,0 +1,23 @@
+.section-slider{
+    grid-area: R;
+   }
+  
+   .section-slider{
+   
+    overflow: hidden;
+    position: relative;
+  }
+  .wrapper-slider{
+    height: 100%;
+  }
+
+  .section-slider__item{
+    color: white;
+    cursor: pointer;
+  }
+
+  .section-slider-menu{
+
+  }
+ 
+

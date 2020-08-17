@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-import SectionInfoHeader from './SectionInfoHeader';
-import Title from './Title';
-import SectionInfoFooter from './SectionInfoFooter';
-
+import SectionInfoHeader from './SectionInfoHeader/SectionInfoHeader';
+import Title from './Title/Title';
+import SectionInfoFooter from './SectionInfoFooter/SectionInfoFooter';
+import './SectionInfo.css';
 
 function SectionInfo() {
   return (

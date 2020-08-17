@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 
 
-import SectionSlider from './components/SectionSlider';
-import SectionInfo from './components/SectionInfo';
+import SectionSlider from '../components/SectionSlider/SectionSlider';
+import SectionInfo from '../components/SectionInfo/SectionInfo';
 
 
 function App() {
