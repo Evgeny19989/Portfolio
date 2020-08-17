@@ -7,9 +7,9 @@ function SectionInfoHeader() {
     
   <nav className="section-info-header">
     <ul className="section-info-menu menu">
-      <li className="section-info__item" ><a href="#">ПОРТФОЛИО</a></li>
-      <li className="section-info__item" ><a href="#">КОНТАКТЫ</a></li>
-      <li className="section-info__item" ><a href="#">ОБО МНЕ</a></li>
+      <li className="section-info__item" >ПОРТФОЛИО</li>
+      <li className="section-info__item" >КОНТАКТЫ</li>
+      <li className="section-info__item" >ОБО МНЕ</li>
     </ul>
   </nav>
   
