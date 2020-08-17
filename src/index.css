@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/*
+ <div className="App">
+        <section className="section-info">
+         <div className="wrapper">
+          <nav className="section-info-header">
+            <ul className="section-info-menu menu">
+              <li className="section-info__item" ><a href="#">ПОРТФОЛИО</a></li>
+              <li className="section-info__item" ><a href="#">КОНТАКТЫ</a></li>
+              <li className="section-info__item" ><a href="#">ОБО МНЕ</a></li>
+            </ul>
+          </nav>
+          <div className="title">
+            <p className="title__design">веб-дизайнер</p>
+            <h1 className="title__name">ИВАН ПАШКОВ</h1>
+          </div>
+          <nav className="section-info-footer">
+            <ul className="section-info-menu menu">
+              <li className="section-info__item" ><a href="#">телеграм</a></li>
+              <li className="section-info__item" ><a href="#">твиттер</a></li>
+              <li className="section-info__item" ><a href="#">фейсбук</a></li>
+            </ul>
+          </nav>
+          </div>
+        </section>
+      <section className="section-slider">
+        <div className="wrapper-slider">
+          
+        </div>
+        <nav className="footer">
+          <ul className="section-slider-menu menu">
+            <li><a href="#" className="section-slider__item" >ivpas@icloud.com</a></li>
+            <li><a href="#" className="section-slider__item" >+7(996) 379-10-80</a></li>
+            <li><a href="#" className="section-slider__item" >EN</a></li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+
+*/

@@ -1,0 +1,102 @@
+
+html , body{
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#root{
+  height: 100%;
+   
+}
+
+
+
+ li {
+  list-style-type: none; 
+  color: #000000;
+ }
+ ul {
+  margin-left: 0; 
+  padding-left: 0; 
+ }
+
+ a { 
+  color: #000000;
+  text-decoration: none; 
+ }
+
+ .App{
+   height: 100%;
+   display:grid;
+   grid-template-areas: "L R ";
+   grid-template-columns: 9fr 10fr;
+
+
+ }
+
+ .section-info{
+  overflow: hidden;
+    grid-area: L;
+ }
+
+ .section-slider{
+  grid-area: R;
+ }
+
+ .section-info-header{
+  grid-area: h;
+  
+ }
+
+ .section-info__item{
+  padding-right: 6%;
+ }
+
+ .title{
+  grid-area: m;
+  align-self: center;
+  padding-top: 20%;
+  
+ }
+ .title__name{
+   font-size: 64px;
+ }
+
+ .section-info-footer{
+  grid-area: f;
+  align-self: end;
+  
+ }
+
+ .menu{
+   display: flex;
+ 
+ }
+
+ .wrapper{
+  grid-template-areas: "h" 
+  "m"
+   "f";
+  height: 100%;
+   display: grid;
+   grid-template-rows: 1fr 5fr 1fr;
+   padding-left: 6%;
+  
+   
+ }
+
+ .section-slider{
+   background-color: aqua;
+   overflow: hidden;
+   position: relative;
+ }
+ .wrapper-slider{
+   height: 100%;
+ }
+
+ .footer{
+  position: absolute;
+  left: 15%;
+  bottom: 0%;
+ }
