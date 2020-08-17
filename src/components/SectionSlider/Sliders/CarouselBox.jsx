@@ -13,14 +13,14 @@ export default class CarouselBox extends Component{
       <Carousel.Item>
         <div className="img1">
           <div className="wrapper-slider-item">
-            <img className="d-block w-100" src={img1}/>
+            <img className="d-block w-100" alt="img"  src={img1}/>
           </div>
         </div>  
       </Carousel.Item> 
       <Carousel.Item>
-        <div className="img2">
+        <div className="img2" >
          <div className="wrapper-slider-item">
-           <img className="d-block w-100" src={img2}/>
+           <img className="d-block w-100" alt="img"  src={img2}/>
            </div>
         </div>
      
@@ -28,7 +28,7 @@ export default class CarouselBox extends Component{
       <Carousel.Item>
         <div className="img3">
           <div className="wrapper-slider-item">
-            <img className="d-block w-100" src={img1}/>
+            <img className="d-block w-100" alt="img" src={img1}/>
             </div>
         </div> 
       </Carousel.Item>
