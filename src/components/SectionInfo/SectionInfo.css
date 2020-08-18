@@ -26,12 +26,14 @@
    padding-right: 6%;
    font-weight:bold;
    cursor: pointer;
+   color: black;
+   white-space: nowrap;
   }
 
   .title{
     grid-area: m;
     align-self: center;
-    padding-top: 30%;
+    padding-top: 45%;
     line-height: 0;
    }
 
@@ -69,4 +71,8 @@
 
    .section-slider__item--phone{
      margin-right: 30%;
+   }
+
+   .section-info-menu Link {
+    color: black;
    }

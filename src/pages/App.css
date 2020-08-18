@@ -3,6 +3,7 @@ html , body{
   height: 100%;
   box-sizing: border-box;
   margin: 0;
+  
 }
 
 #root{
@@ -25,13 +26,17 @@ li {
  }
 
  .App{
-   height: 100%;
-   display:grid;
-   grid-template-areas: "L R ";
-   grid-template-columns: 17fr 20fr;
-
-
+  height: 100%;
  }
+ .Home{
+
+  height: 100%;
+  display:grid;
+  grid-template-areas: "L R ";
+  grid-template-columns: 17fr 20fr;
+}
+
+
 
  
 .menu{

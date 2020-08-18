@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import CarouselBox from './Sliders/CarouselBox'
-import SectionSliderFooter from './SectionSliderFooter/SectionSliderFooter'
+import Footer from './SectionSliderFooter/Footer'
 
 import './SectionSlider.css';
 
@@ -10,7 +10,7 @@ export default class SectionSlider  extends Component{
     return(
     <section className="section-slider">
       <CarouselBox/>
-      <SectionSliderFooter/>
+      <Footer/>
     </section>
     );
   }

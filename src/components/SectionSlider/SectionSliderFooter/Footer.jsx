@@ -3,9 +3,9 @@ import React from 'react';
 
 
 
-function SectionSliderFooter() {
+function Footer() {
   return (
-  <nav className="footer">
+  <nav className="footer footer-portfolio">
       <ul className="section-slider-menu menu">
         <li className="section-slider__item" >ivpas@icloud.com</li>
         <li className="section-slider__item section-slider__item--phone" >+7(996) 379-10-80</li>
@@ -16,4 +16,4 @@ function SectionSliderFooter() {
   );
 }
 
-export default SectionSliderFooter;
+export default Footer;

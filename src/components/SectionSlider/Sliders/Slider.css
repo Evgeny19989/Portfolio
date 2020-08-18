@@ -36,6 +36,11 @@ Carousel.Item {
   height: 100%;
   width: 100%;
   position: relative;
+  
+}
+
+Carousel.Item{
+    margin:0;
 }
 
 .img2{
