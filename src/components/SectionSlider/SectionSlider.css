@@ -1,23 +1,42 @@
-.section-slider{
+.section_slider{
     grid-area: R;
    }
   
-   .section-slider{
+   .section_slider{
    
     overflow: hidden;
     position: relative;
   }
-  .wrapper-slider{
+  .wrapper_slider{
     height: 100%;
   }
 
-  .section-slider__item{
+  .section_slider__item{
     color: white;
     cursor: pointer;
   }
 
-  .section-slider-menu{
+  .section_slider_menu{
 
   }
  
 
+  .section_slider_menu{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section_slider__item{
+    padding-right: 5%;
+  }
+
+  .section_slider__item__phone{
+    margin-right: 30%;
+  }
+
+  .footer{
+    position: absolute;
+    left: 15%;
+    bottom: 3%;
+    width: 84%;
+   }

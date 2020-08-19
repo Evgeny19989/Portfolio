@@ -1,6 +1,7 @@
 
 html , body{
   height: 100%;
+  width: 100%;
   box-sizing: border-box;
   margin: 0;
   
@@ -27,6 +28,7 @@ li {
 
  .App{
   height: 100%;
+ 
  }
  .Home{
 
@@ -46,3 +48,40 @@ li {
 
 
  
+ @media only screen 
+ and (min-width : 1824px) {
+ /* Styles */
+ }
+ 
+ /* Desktops and laptops ----------- */
+ @media only screen 
+ and (min-width : 1224px) {
+ /* Styles */
+ }
+ 
+ 
+ /* Smartphones (landscape) ----------- */
+ @media only screen 
+ and (min-width : 321px) {
+ /* Styles */
+ }
+ 
+ /* Smartphones (portrait) ----------- */
+ @media only screen 
+ and (max-width : 320px) {
+  .Home{
+
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+  }
+  
+
+  .title__design{
+      font-size: 14px !important;
+  }
+   .title{
+    line-height: 0.8;
+   }
+     
+   }

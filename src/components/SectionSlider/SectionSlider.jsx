@@ -8,7 +8,7 @@ import './SectionSlider.css';
 export default class SectionSlider  extends Component{
   render(){
     return(
-    <section className="section-slider">
+    <section className="section_slider">
       <CarouselBox/>
       <Footer/>
     </section>
