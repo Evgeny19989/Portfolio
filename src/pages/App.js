@@ -8,7 +8,7 @@ import About from './About';
 
 
 
-function App(props) {
+function App() {
 
   return (
     <Router>

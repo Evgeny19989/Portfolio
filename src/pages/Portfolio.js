@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import  s from './Portfolio.module.css'
 import img1 from '../image/image01N.png'
 import img2 from '../image/image02N.png'
@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 
 
-function Portfolio(props) {
+function Portfolio() {
 
   return (
 

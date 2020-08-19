@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import img from '../../image/line.png'
 
 
-function Menu(props) {
+function Menu() {
 
     return (
 

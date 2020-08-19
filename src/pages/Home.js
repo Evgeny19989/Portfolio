@@ -10,7 +10,7 @@ import SectionSlider from '../components/SectionSlider/SectionSlider';
 
 
 
-function Home(props) {
+function Home() {
 
   return (
     <div className="Home">

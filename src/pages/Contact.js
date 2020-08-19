@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 import  s from './Contact.module.css'
 import {Link} from 'react-router-dom'
 
 
 
-function Contact(props) {
+function Contact() {
 
   return (
   <div className={s.wrapper_grid}>
