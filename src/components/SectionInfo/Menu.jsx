@@ -9,10 +9,10 @@ function Menu() {
         <div className="menu_wrapper" >
             <div className="menu">
                 <div className="wrapper_line">
-                    <img src={img}/>
+                    <img alt="" src={img}/>
                 </div>
                 <div className="wrapper_line">
-                    <img src={img}/>
+                    <img alt="" src={img}/>
                 </div>
             </div>
         </div>
