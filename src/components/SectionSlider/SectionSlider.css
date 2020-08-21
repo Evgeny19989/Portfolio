@@ -16,9 +16,6 @@
     cursor: pointer;
   }
 
-  .section_slider_menu{
-
-  }
  
 
   .section_slider_menu{
@@ -40,3 +37,19 @@
     bottom: 3%;
     width: 84%;
    }
+
+
+
+   /* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 400px) {
+   .wrapper_slider_item {
+    left: 7%;
+    position: absolute;
+    width: 86%;
+    height: 38%;
+    top: 10%;
+    bottom: 10%;
+   }
+
+  }

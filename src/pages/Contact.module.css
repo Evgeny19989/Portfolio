@@ -1,22 +1,33 @@
 .wrapper_contact{
     height: 100%;
-    width: 100%;
+
     position: relative;
 }
 
+p{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.contact_info_text{
+    font-weight:bold;
+}
 
 .contact{
     position: relative;
-    height: 97%;
+    height: 100%;
     display:grid;
-    grid-template-areas: " m l r" ;
-    gap: 3%;
-    grid-template-columns:2fr 5fr 10fr;
-    font-size: 16px;
+    grid-template-areas: " m l r" " ... ... f ";
+   
+    grid-template-columns:3fr 5fr 10fr;
+    grid-template-rows: 92% 8%;
 
     white-space: nowrap;
   
+}
 
+.footer{
+    grid-area: f;
 }
 
 .contact_main{
@@ -33,11 +44,10 @@
     grid-area: r;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    
     
  
 }
-
 
 .contact_info_first{
     
@@ -46,33 +56,37 @@
     display: flex;
     flex-direction: column;
     
-    
+    margin-left: 15%;
+
 }
 
 .contact_info_text{
-    position: fixed;
+  
 }
 
 .contact_info_first_menu{
-   
-    position: absolute;
-    top: 20%;
+
+    margin-top: 19%;
+    display: flex;
+    flex-direction: column;
+  
+  
+    
 }
 
-
-
-
+.contact_info_first_menu__item{
+    margin-top:40px;}
 
 .title{
-    line-height: 1;
+line-height: 1.3;
 font-size: 45px;
 
 text-transform: uppercase;
 }
 
 .title_sub{
-    font-size: 16px;
-line-height: 0.4;
+font-size: 16px;
+line-height: 1;
 }
 
 
@@ -81,8 +95,18 @@ font-size: 45px;
 line-height: 54px;
 text-transform: uppercase;
 position: absolute;
-    top: 20%;
+top: 20%;
 
+}
+
+.contact_main_text{
+    opacity: 0.5;
+    color: #000000;
+}
+
+.contact_main_text:hover{
+    color: #000000;
+    text-decoration: none; 
 }
 
 .contact_menu{
@@ -112,44 +136,41 @@ position: absolute;
     height: 97%;
 }
 
-/* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
-/* Styles */
+
+    .footer_nav{
+        margin-top: 1%;
+    } 
 }
 
-/* Desktops and laptops ----------- */
+
 @media only screen 
-and (min-width : 1224px) {
-/* Styles */
+and (max-width : 1462px) {
+   
+
+    .contact_main_text{
+        font-size: 12px ;
+    }
+    .contact_info_text{
+        font-size: 12px ;
+    }
+    .contact_menu__item{
+        font-size: 12px ;
+    }
+    .title{
+        font-size: 30px ;
+        line-height: 1;
+    }
+    .contact_info_second__text{
+        font-size: 30px;
+    }   
+
+  
 }
 
 
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-/* Styles */
-}
+
+
 
 /* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-    .wrapper{
-    padding-left: 9%;
-    padding-top: 3%;
-    padding-bottom: 4%;
-    padding-right: 9%;
-    }
-    .carousel-indicators {
-        
-        right: 32% !important;
-  
-        margin-right: 15% !important;
-        margin-left: 15% !important;
-    }
-
-    .carousel-indicators li{
-        width: 30% !important; 
-        padding-left: 33px;
-    }
-}

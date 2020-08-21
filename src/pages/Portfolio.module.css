@@ -83,6 +83,10 @@
     margin-top: 3%;
 }
 
+.portfolio_main_text:hover{
+    color: #000000;
+    text-decoration: none; 
+}
 
 
 
@@ -116,3 +120,53 @@ color: black;
     margin-right: 6%;
 }
 
+@media only screen 
+and (min-width : 1824px) {
+
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and ( max-width : 1462px) {
+    .portfolio_main_text{
+
+        font-size: 12px;
+    }
+    .portfolio_work_period{
+        font-size: 12px;
+    }
+    .portfolio_sort{
+        font-size: 12px;
+    }
+
+    .portfolio_work_photo__first img{
+        width: 63%;
+    }
+
+    .portfolio_work_photo__second img{
+        width: 55%;
+    }
+
+    .portfolio_menu__item{
+        font-size: 12px;
+    }
+}
+@media only screen 
+and (min-width : 1824px) {
+
+.portfolio{
+    top:2.4%;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 400px)  {
+}

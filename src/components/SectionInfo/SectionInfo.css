@@ -63,13 +63,45 @@
 
    @media only screen 
 and (min-width : 1824px) {
-/* Styles */
+
 }
 
 /* Desktops and laptops ----------- */
 @media only screen 
-and (min-width : 1224px) {
-/* Styles */
+and (max-width : 1462px) {
+  .title__name{
+    font-size: 48px;
+  }
+
+  .title__design {
+    font-size: 20px;
+}
+.section_info__item{
+  font-size: 12px;
+}
+.section_slider__item{
+  font-size: 12px;
+}
+
+.section_info__item{
+  font-size: 12px;
+}
+
+.wrapper_slider_item {
+width: 50%;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 50% !important;
+  left: 93% !important;
+  z-index: 15;
+  display: flex;
+  flex-direction: column;
+  width: 9%;
+  height: 50%;
+  
+}
 }
 
 
@@ -81,8 +113,8 @@ and (min-width : 321px) {
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
-and (max-width : 320px)  {
-
+and (max-width :  768px)  {
+ 
 .wrapper{
    
      height: 100%;

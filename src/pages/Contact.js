@@ -11,7 +11,7 @@ function Contact() {
     <div className={s.wrapper_contact}>
       <div className={s.contact}>
         <div className={s.contact_main}>
-         <div className={s.contact_main_text}> <Link to="/"  className={s.portfolio_main_text}>ГЛАВНАЯ </Link>{'>'}</div>
+         <div className={s.contact_main_text}> <Link to="/"  className={s.contact_main_text}>ГЛАВНАЯ {'>'} </Link></div>
         </div>
         <div className={s.contact_info_first}>
           <div className={s.contact_info_firtst_title }>
@@ -43,13 +43,15 @@ function Contact() {
         </div>
         <div className={s.contact_info_second}>
             <p className={s.contact_info_second__text}>Хотите обсудить проект?<br/> Приглашаю вас на чашку <br/>кофе в любом месте в любое<br/> время дня. </p>
-            <nav className={s.footer }>
+        </div>
+        <div className={s.footer}>
+          <nav className={s.footer_nav }>
               <ul className={s.contact_menu }>
                 <li className={s.contact_menu__item} >ivpas@icloud.com</li>
                 <li className={`${s.contact_menu__item} ${s.contact_menu__item__phone}`} >+7(996) 379-10-80</li>
                 <li className={`${s.contact_menu__item} ${s.contact_menu__item__en} `} >EN</li>
               </ul>
-            </nav>
+          </nav>
         </div>
       </div>
   

@@ -13,7 +13,7 @@ function Portfolio() {
   <div className={s.wrapper_portfolio}>
     <div className={s.portfolio}>
       <div className={s.portfolio_main}>
-          <p className={s.portfolio_main_text}> <Link to="/"  className={s.portfolio_main_text}>ГЛАВНАЯ </Link>{'>'}</p>
+          <p className={s.portfolio_main_text}> <Link to="/"  className={s.portfolio_main_text}>ГЛАВНАЯ {'>'} </Link></p>
       </div>
       <div className={`${s.portfolio_work} ${s.portfolio_work__first}`}>
         <p className={s.portfolio_work_period }> ПОРТФОЛИО 2018 - 2020</p>

@@ -1,4 +1,9 @@
 
+*{
+  margin:0;
+  padding:0;
+  }
+
 html , body{
   height: 100%;
   width: 100%;
@@ -24,7 +29,17 @@ li {
  a { 
   color: #000000;
   text-decoration: none; 
- }
+}
+
+.section_info__item:hover{
+  color: #000000;
+  text-decoration: none; 
+}
+
+A:hover { 
+  text-decoration:none; 
+  
+ } 
 
  .App{
   height: 100%;
@@ -68,7 +83,7 @@ li {
  
  /* Smartphones (portrait) ----------- */
  @media only screen 
- and (max-width : 320px) {
+ and (max-width : 400px) {
   .Home{
 
     height: 100%;
@@ -83,5 +98,7 @@ li {
    .title{
     line-height: 0.8;
    }
+
+
      
    }
